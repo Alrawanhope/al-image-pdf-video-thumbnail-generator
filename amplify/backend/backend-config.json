@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "alimagepdfvideothumb1695746e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "imgpdfvid007": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
